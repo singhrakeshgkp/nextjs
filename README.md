@@ -24,7 +24,7 @@
    - Create a new Folder under employees directory  with ```[]``` syntax.
    - go to ```[]``` directory and open page.tsx or page.js file
       - for .js file use below code
-        ```
+      ```
          export default async function Employee(props) {
         // Access params from props
         const params = await props.params;   // unwrap Promise if needed
@@ -36,9 +36,10 @@
         </main>
         );
         }
-       ```
+      
+      ```
        
-     - for .tsx file use
+      - for .tsx file use
      
       ```
        type EmployeePageProps = {
