@@ -37,7 +37,9 @@
         );
         }
        ```
+       
      - for .tsx file use
+     
       ```
        type EmployeePageProps = {
        params: Promise<{ id: string }>; // Next.js wraps params in a Promise
