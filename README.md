@@ -2,6 +2,7 @@
 - [Next JS](#next-js)
    - [setup](#setup)
    - [Basic](#basic)
+   - [Project 1 Foodies](#Project-1-Foodies)
 
 
 # Next JS
@@ -13,6 +14,7 @@
   npm run dev
   ```
 ## Basic
+## Branch  main
 - **Routing** ----> File/Folder based routing--> Create new Folder ```about``` in /app directory, now crete new page ```page.jsx```. Now try to access ```host:<port>/about``` url, u will be able to see about page.
 - **Navingation between page**
    - if i use ```<p><a href = "/about">About US</a></p>``` and click on About us link, u will observe in left corner of browser refresh icon turns into x icon that means its downloading brand new page which is no longer is single page application.
@@ -20,7 +22,6 @@
 - Adding React Component in page.tsx file --> create new component folder(recomended to create it outside app folder), ```I Student.jsx``` component. import and use it in page.tsx file.
 - **reserved file name and and keyword** -- refer documentation
 - **Dynamic Routing/Nested Routing** ---> lets say if i want ```/localhost:300/employees/{id}``` id could be from 1.....to .....n. we can not create that much folder and page.tsx file. Thats where dynamic routing comes into picture
-   - Next js automatically pass ```props``` when handling dynamic routes.
    - Lets say i have list of employee and when i click on Employee-1, i should be redirected on that page so on for employee 2.....employeen
    - Create a new Folder under employees directory  with ```[]``` syntax.
    - go to ```[]``` directory and open page.tsx or page.js file
@@ -60,4 +61,7 @@
       
      ```
 
+
+## Project-1-Foodies
+### Branch proj1-foodies-
 # test
