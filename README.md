@@ -64,4 +64,8 @@
 
 ## Project-1-Foodies
 ### Branch proj1-foodies-
+- add header, footer, and logo (modify layout.tsx file)
+- create a global.css file
+- create new layout.tsx(MealsLayout) file under meals directory, on top of root layout MealsLayout will be apllied to all files and subdirectories of meals.
+- 
 # test
