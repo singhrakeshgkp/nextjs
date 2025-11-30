@@ -67,5 +67,6 @@
 - add header, footer, and logo (modify layout.tsx file)
 - create a global.css file
 - create new layout.tsx(MealsLayout) file under meals directory, on top of root layout MealsLayout will be apllied to all files and subdirectories of meals.
-- 
+- Organize headers tsx and css file in separate folder which is under component directory.
+- Use next js Image tage instead of img tag as it support lazy loading.
 # test
