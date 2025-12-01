@@ -76,3 +76,7 @@
    - Now add slider
      - to add slider create new folder  ```/images``` under component directory, create new file ```image-slideshow.tsx```
      - Now check application, slider might not work because in nextjs by default all react components are server component since we have used useState hook so we need to make it client component using ```use client``` directive either in parent or chil.
+- **Desiging comunity page**
+- **Make current page link as active in menu**
+   - use usePathname hook ```const path = usePathname();``` in main-header.tsx file. Add active class dependency on the path u are in, since this hook is not executable on server we need to mark ```main-header.tsx``` file as ```use client``` client component.
+   - Now run
