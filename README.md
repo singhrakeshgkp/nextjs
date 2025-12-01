@@ -80,4 +80,9 @@
 - **Make current page link as active in menu**
    - use usePathname hook ```const path = usePathname();``` in main-header.tsx file. Add active class dependency on the path u are in, since this hook is not executable on server we need to mark ```main-header.tsx``` file as ```use client``` client component.
    - Now run, application with run and u will get desired output, issue with this approoach is here we have marked entire main-header component as client instead of doing this we can mark only <Link(nav) only as client component.
-   - refer branch 01-project-1-foodies-2
+   ### branch 01-project-1-foodies-2
+  - instead of making whole main-header component executable on client we can make only that part what we want ex. Link tag. To do so follow below steps.
+     - create new ```nav-link.tsx and nav-link.module.css``` files
+     - add required css from main-header.module.css to nav-link.module.css file
+     - write required logic in nav-link.tsx file
+     - import nav-link component in main-header component and use NavLink Component, remove ```use client``` directive from main-header.tsx file.
