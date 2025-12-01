@@ -14,7 +14,7 @@
   npm run dev
   ```
 ## Basic
-## Branch  main
+## Branch  main 
 - **Routing** ----> File/Folder based routing--> Create new Folder ```about``` in /app directory, now crete new page ```page.jsx```. Now try to access ```host:<port>/about``` url, u will be able to see about page.
 - **Navingation between page**
    - if i use ```<p><a href = "/about">About US</a></p>``` and click on About us link, u will observe in left corner of browser refresh icon turns into x icon that means its downloading brand new page which is no longer is single page application.
@@ -69,6 +69,11 @@
 - create new layout.tsx(MealsLayout) file under meals directory, on top of root layout MealsLayout will be apllied to all files and subdirectories of meals.
 - Organize headers tsx and css file in separate folder which is under component directory.
 - Use next js Image tage instead of img tag as it support lazy loading.
-- populating start page content
-   - remove content from page.tsx file
+- **populating start page content**
+   - branch name 01-project-1-foodies-1
+   - Remove existing content from page.tsx file
+   - Create a file name ```page.module.css```  and make required changes in ```page.tsx``` file.
+   - Now add slider
+     - to add slider create new folder  ```/images``` under component directory, create new file ```image-slideshow.tsx```
+       
 # test
