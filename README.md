@@ -75,5 +75,4 @@
    - Create a file name ```page.module.css```  and make required changes in ```page.tsx``` file.
    - Now add slider
      - to add slider create new folder  ```/images``` under component directory, create new file ```image-slideshow.tsx```
-       
-# test
+     - Now check application, slider might not work because in nextjs by default all react components are server component since we have used useState hook so we need to make it client component using ```use client``` directive either in parent or chil.
