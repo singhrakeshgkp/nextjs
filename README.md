@@ -79,4 +79,5 @@
 - **Desiging comunity page**
 - **Make current page link as active in menu**
    - use usePathname hook ```const path = usePathname();``` in main-header.tsx file. Add active class dependency on the path u are in, since this hook is not executable on server we need to mark ```main-header.tsx``` file as ```use client``` client component.
-   - Now run
+   - Now run, application with run and u will get desired output, issue with this approoach is here we have marked entire main-header component as client instead of doing this we can mark only <Link(nav) only as client component.
+   - refer branch 01-project-1-foodies-2
