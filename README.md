@@ -86,3 +86,17 @@
      - add required css from main-header.module.css to nav-link.module.css file
      - write required logic in nav-link.tsx file
      - import nav-link component in main-header component and use NavLink Component, remove ```use client``` directive from main-header.tsx file.
+   
+ - **outputing meals data and images with unknown dimentions.**
+   - Create meals-grid.tsx, meals-grid.module.css, meal-item.tsx and meal-item.module.css file
+   - add required code in above files
+   - Pass meals[] empty array from meals ```page.tsx``` file
+   - **setup database to get and pass meals from DB to meals grid component.**
+     - Stop server and run ```npm install better-sqlite3``` command, this will allow u to work with sqlite database.
+     - Create ```initdb.jsx``` file, this will create data base and put the predefined meals in it.
+     - run ```node initdb.jsx``` command from terminal, you will observe ```meals.db``` file will be created.
+     - Now data is available to use.
+   - **Loading data from database in meals** ```page.tsx```
+      - since in next js all components are server component so we don't need to write fetching logic in useState hook we can write in in page.jsx file directly
+      - Create new folder    ```lib``` in root directory, create new file ```meals.jsx``` in it, write datafetching logic.
+      - import getMeals from meals.jsx file and extract meals and pass it to meal-grid component.
