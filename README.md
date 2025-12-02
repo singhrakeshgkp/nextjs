@@ -100,3 +100,6 @@
       - since in next js all components are server component so we don't need to write fetching logic in useState hook we can write in in page.jsx file directly
       - Create new folder    ```lib``` in root directory, create new file ```meals.jsx``` in it, write datafetching logic.
       - import getMeals from meals.jsx file and extract meals and pass it to meal-grid component.
+  - **Adding Loading Page**
+     - create a files ```loading.jsx and loading.module.css``` file, if created outside directory this loader will be aplied by default to its sibling and sub folder, however we need it in /meals hence we will create it in meals folder.
+     - run applican, you will observe loader is applied on meals page automatically without writing any code  
