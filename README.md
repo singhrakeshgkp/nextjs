@@ -109,6 +109,15 @@
    - copy previous css from loading.module.css file to meals/page.module.css file.
    - go to /meals/page.tsx file, define outsource meals component, and render it inside suspense tag
   
-### Working on error
+### Error Handling
+- **Not Found Error** -- Lets say if someone is trying to access resource which is not availble. ex http://localhost:3000/test, in that case u might want to display some error/page to customer, to achieve that follow below steps.
+  - Create ```not-cound.tsx``` file under root directory. This page will be rendered for  sibling and all nested components where exception
+  - run and test application.
+- **Exception/error** ---> If some exception/error occurs we might want to render some other error page.
+   - create /meals/error.jsx file.
+   - modify /lib/meals.jsx component, throw error explicitly to test it.
+   - Now try to access /meals resource, error page should be displayed.
+   
 
 ### meal details page
+
