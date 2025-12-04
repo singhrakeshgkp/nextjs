@@ -103,8 +103,12 @@
   - **Adding Loading Page approach 1**
      - create a files ```loading.jsx and loading.module.css``` file, if created outside directory this loader will be aplied by default to its sibling and sub folder, however we need it in /meals hence we will create it in meals folder.
      - run applican, you will observe loader is applied on meals page automatically without writing any code  
- - **Adding Loading Page approach 2**
+ - **Adding Loading Page approach 2    Branch 1-project-1-foodies-3**
    - Issue with above loader is that it cover all the contents/entire page. for example header data is static and meal grid data is dynamic, since its fetching meals data from DB header data should be visible. we can get rid of this using suspense nextjs tag.
    - rename ```loading.jsx to loading-approach1.jsx``` as we don't want loading.jsx gets picked up by nextjs.
    - copy previous css from loading.module.css file to meals/page.module.css file.
-   - go to /meals/page.tsx file, define outsource meals component, and render it inside suspense tag.
+   - go to /meals/page.tsx file, define outsource meals component, and render it inside suspense tag
+  
+### Working on error
+
+### meal details page
