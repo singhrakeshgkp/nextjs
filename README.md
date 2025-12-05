@@ -122,12 +122,12 @@
 ### meal details page (via dynamic routes and route parameters)
 - Display  meal details page.
 - Handle Not found error
- - add following code in /meals/id/page.tsx file
-   ```
+  - add following code in /meals/id/page.tsx file
+    ```
         if (!meal){ // if undefined
         notFound();// call closest not found component
-    } 
-   ```
-- add not-found.tsx file under /meals/id directory, run and verify output
+     } 
+    ```
+  - add not-found.tsx file under /meals/id directory, run and verify output
 
 
