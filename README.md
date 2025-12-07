@@ -149,5 +149,7 @@
    - commented existing function(page.tsx) and move it in actions.tsx file
    - now run, this time even if we use ```use client``` in page.tsx and ```use serveer``` in ```action.tsx``` we would be able to run earlier in same page using both was not possible.
  ### Saving data in database.
+ - To generate slug as this field we are not taking from user and to protct data from cross site scripting attach run ```npm install slugify xss``` command xss will protect from coss site scripting attack.
+ - Create new function ```saveMeal``` in ```/lib/meals.tsx``` file. call this function on form submit from ```action.tsx```. Run and verify result.
 
  
