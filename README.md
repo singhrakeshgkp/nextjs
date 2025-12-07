@@ -119,7 +119,7 @@
    - Now try to access /meals resource, error page should be displayed.
    
 
-### meal details page (via dynamic routes and route parameters)
+### meal details page (via dynamic routes and route parameters)  01-project-1-foodies-3
 - Display  meal details page.
 - Handle Not found error
   - add following code in /meals/id/page.tsx file
@@ -131,7 +131,7 @@
   - add not-found.tsx file under /meals/id directory, run and verify output
 
 
-### Share meal form 
+### Share meal form  01-project-1-foodies-3
 - Create form
 - Create Custom image picker component
    - create new components image-picker.jsx file under /components/meals directory
