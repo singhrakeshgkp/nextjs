@@ -131,3 +131,10 @@
   - add not-found.tsx file under /meals/id directory, run and verify output
 
 
+### Share meal form 
+- Create form
+- Create Custom image picker component
+   - create new components image-picker.jsx file under /components/meals directory
+   - include it in page.tsx file, u will see very basic image. Lets make it fancy
+   - add class ```input``` in input type element, this will hide input type elements, now add button, and what we want we want our own button click the input type under hood for this we will use useRef react hook.
+   - To preview image onChange method of input type fill preview div with image what was selected.
