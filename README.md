@@ -138,3 +138,16 @@
    - include it in page.tsx file, u will see very basic image. Lets make it fancy
    - add class ```input``` in input type element, this will hide input type elements, now add button, and what we want we want our own button click the input type under hood for this we will use useRef react hook.
    - To preview image onChange method of input type fill preview div with image what was selected.
+
+### Server action for handling form submission 01-project-1-foodies-3
+- **approach 1 defining server action in same file(file where form is) ex.  ```page.tsx```**
+   - in your form tag add ```action={submitMeal}```
+   - define function ``` async function submitMeal(formData:FormData)``` run and check server console log.
+- **Approach 2 defining server action in separate file**
+   - Create ```actions.tsx``` file under /lib directory
+   - Import action file in /share/page.tsx file
+   - commented existing function(page.tsx) and move it in actions.tsx file
+   - now run, this time even if we use ```use client``` in page.tsx and ```use serveer``` in ```action.tsx``` we would be able to run earlier in same page using both was not possible.
+ ### Saving data in database.
+
+ 
