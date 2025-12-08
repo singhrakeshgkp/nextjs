@@ -116,3 +116,4 @@
       }
   ```
 - **generating dynamic metadata**
+  - Go to ```meals/[id]/page.tsx``` file add ```generateMetadata``` function it will receive same props argument what page.tsx is receiving, if nextjs do not see any metadata, it will look for generateMetadata function.
