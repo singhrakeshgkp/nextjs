@@ -168,3 +168,8 @@
 - Execute ```npm run build``` and ```npm start``` command- this will start server in production mode.
 - Now add meal from share meal page, you will observe whatever meal u have added would not be visible in meal listing page, this is happening because nextjs cache all the pages at during build, to get rid of this we need to use ```revalidatePath('/meals')```, this code we will inject where we have written redirection logic in our case its ```actions.tsx``` file
 - Now stop server build and run npm start command again and verify it.
+- If u observe image for newly added meal will not be available as in production mode next js copy the stores the public/images in .next folder therefore we should avoid adding files in local file system, we should prefer s3 or some other storage.
+
+### Generating meta data
+- generating static metadata
+- generating dynamic metadata
