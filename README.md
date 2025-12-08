@@ -2,7 +2,7 @@
 - [Next JS](#next-js)
    - [setup](#setup)
    - [Basic](#basic)
-   - [Project 1 Foodies](#Project-1-Foodies)
+   - [Project 1 Foodies](/3-foodies-app.md)
 
 
 # Next JS
