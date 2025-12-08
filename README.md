@@ -152,4 +152,14 @@
  - To generate slug as this field we are not taking from user and to protct data from cross site scripting attach run ```npm install slugify xss``` command xss will protect from coss site scripting attack.
  - Create new function ```saveMeal``` in ```/lib/meals.tsx``` file. call this function on form submit from ```action.tsx```. Run and verify result.
 
- 
+ ### Disable button depending on Form Status
+ - create new component ```meals-form-submit.tsx``` in /components/meals directory
+ - comment button what we defined in share meal form and replace it with newly created component which is ```MealsFormSubmit```, run and test 
+### Form validation
+- add following code in saveMeals file actions.tsx file
+- ```
+          if (isInValidText( meal.title as string ) ?? ''){
+            throw new Error('Invalid data')
+        }
+  ```
+- add error.tsx file, run and verify output. work on more validation logic.
