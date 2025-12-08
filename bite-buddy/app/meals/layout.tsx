@@ -7,7 +7,6 @@ type MealsLayoutProps = {
 
 export default function MealsLayout({children} : MealsLayoutProps){
     return <>
-    <p> Meals Layout </p>
     {children}
     </>
 }

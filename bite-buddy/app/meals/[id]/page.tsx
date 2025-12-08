@@ -1,11 +1,49 @@
+import { getMealById } from '@/lib/meals'
+import Image from 'next/image'
+import { notFound } from 'next/navigation'
+import classes from './page.module.css'
 type MealByIdPageProp = {
     params: Promise<{id: string}> //next js wraps parames in. promise
 }
 
+ export async function generateMetadata(props:MealByIdPageProp) {
+        const params = await props.params
+    const id = params.id
+    const meal = getMealById(id)
+        if (!meal){ // if undefined
+        notFound();// call closest not found component
+    }
+    return {
+        title: meal.title,
+        description: meal.summary
+    }
+  }
 export default async function Meal(props: MealByIdPageProp){
     const params = await props.params
     const id = params.id
-    return <main>
-        <h1> Meal Page, Meal id is :-        {id}</h1>
+    const meal = getMealById(id);
+    if (!meal){ // if undefined
+        notFound();// call closest not found component
+    } 
+    meal.instructions = meal.instructions.replace(/\n/g,'<br/>')
+    return <>
+    <header className={classes.header}>
+        <div className= {classes.image}>
+            <Image src={meal.image} alt= {meal.title} fill></Image>
+        </div>
+
+        <div className={classes.headerText}>
+            <h1>{meal.title}</h1>
+            <p className={classes.creator}>
+                by <a href= {`mailto: ${meal.creator_email}`}>{meal.creator}</a>
+            </p>
+            <p className={classes.summary}>{meal.summary}</p>
+        </div>
+    </header>
+    <main>
+        <p className={classes.instructions} dangerouslySetInnerHTML={{
+            __html: meal.instructions,
+        }}></p>
     </main>
+    </>
 }
