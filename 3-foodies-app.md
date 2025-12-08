@@ -108,5 +108,11 @@
 - If u observe image for newly added meal will not be available as in production mode next js copy the stores the public/images in .next folder therefore we should avoid adding files in local file system, we should prefer s3 or some other storage.
 
 ### Generating meta data
-- generating static metadata
-- generating dynamic metadata
+- **generating static metadata** add following content in ```/meals/page.tsx``` we can use metadata in layout as well.
+  ```
+   export const metadata = {
+    title: "meals",
+    description:"browse our elegant meals"
+      }
+  ```
+- **generating dynamic metadata**
