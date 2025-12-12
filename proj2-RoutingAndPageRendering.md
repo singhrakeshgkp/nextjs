@@ -19,6 +19,10 @@
 #### use catchAll Routes branch- 02-project-2-news2-parallelroutes3
 - in dynamic routes replace ```[year]``` with ```[[...filter]] now this will catch any routes starting with ```/archive``` or ```/archiev/2023/01/etc```
 - now if u run, you will observe ```You cannot define a route with the same specificity as a optional catch-all route ("/archive" and "/archive[[...filter]]")``` error, this is because now we have duplicate page.tsx one is under /archive/@archive and other one is in /archive/archive/[[.../filter]]/page.tsx, so to fix it rename or delete /archive/@archive/page.tsx
+- error handling
+- 
+
+  
 
 
  
