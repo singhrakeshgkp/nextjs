@@ -4,6 +4,7 @@
    - [Basic](#basic)
    - [Project 1 Foodies](/3-foodies-app.md)
    - [Project 2 News](/proj2-RoutingAndPageRendering.md)
+   - [Data Fetching](/data-fetching.md)
 
 
 # Next JS
