@@ -18,3 +18,9 @@
   - go to  /new-post/page.js file and comment createPost server action
   - create new folder name it ```actions```  and copy createPost method in it
   - run application and verif if create post is working.
+- **Store image in cloud (i am using cloudinary)**
+  - signup in cloudinary, and run ```npm i cloudinary``` command
+  - create ```env.local``` file in root directory and copy cloudinary credential in it.
+  - go to ```server-actions.js``` file and call ```uploadImage``` method of cloudinary api
+  - uncomment image tag from /feed/page.js file (its in post.js file)
+  - run and verify if image is uploaded and displayed on feed post page.
