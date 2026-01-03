@@ -6,6 +6,7 @@
    - [Project 2 News](/proj2-RoutingAndPageRendering.md)
    - [Data Fetching](/data-fetching.md)
    - [Data Mutation](/data-mutation.md)
+   - [Caching](/caching.md)
 
 
 # Next JS
