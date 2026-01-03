@@ -24,3 +24,17 @@
   - go to ```server-actions.js``` file and call ```uploadImage``` method of cloudinary api
   - uncomment image tag from /feed/page.js file (its in post.js file)
   - run and verify if image is uploaded and displayed on feed post page.
+
+ ### Like functionality (Like a post from posts page)
+ - create a new server action in ```server-actions.js``` file, name it ```togglePostLikeStatus```
+ - Trigger server action when any one click on button, this we can achieve in two way
+   - **approach 1 ->**
+     - Go to posts.js file replace LikeButton tag with  ```<LikeButton action={togglePostLikeStatus}/>```. Here we are passing server action as prop
+     - Go to ```like-icon.js``` file, since we are passing action as prop we will receive this action using code ```{action}```, use formAction attribute and call server action coming form LikeButton. ex ```<button formAction={action} className="like-button">```
+   - **approach 2 ->**
+      - Go to posts.js file, enclose ```LikeButton``` in form tag.
+      - since ```togglePostLikeStatus``` accept post id however we are passing formData object,we can pass some extra data(in this case post id) with form object using ```togglePostLikeStatus.bind()``` , bind takes two argument first what the this keyworkd in this function refer to here it doesn't matter so we pass null, second argument here we will pass post id. since first argument is null so eventually second argument will become first one which is post id when calling server action method.
+
+### Revalidating data to avoid cache problem
+- if u click on like button, like status will not reflect unitl u refresh page, this is because nextjs cache the page.
+- To fix above issue go to your server-actions and call ```revalidatePath('/feed')``` and now verify like button this time changes will reflect no page refresh needed.
