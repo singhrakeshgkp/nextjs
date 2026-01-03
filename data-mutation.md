@@ -38,3 +38,28 @@
 ### Revalidating data to avoid cache problem
 - if u click on like button, like status will not reflect unitl u refresh page, this is because nextjs cache the page.
 - To fix above issue go to your server-actions and call ```revalidatePath('/feed')``` and now verify like button this time changes will reflect no page refresh needed.
+
+### Optimistic update
+- lets say i want to update like status immediately even before it has been processed in the database that concept called optimistic updates. So here is the steps
+  - Immediate update the status, and let database update happen in the background
+  - If database update fails then rollback the status update.
+- **Implementation**
+  - here we will use useOptmistic hook. Go to and add following code
+    ```
+        const [optimisticPosts,updateOptimisticPosts] = useOptimistic(posts,(prevPosts,updatedPostId)=>{
+        const updatedPostIndex = prevPosts.findIndex(post => post.id === updatedPostId)
+        if ( updatedPostIndex === -1 ) {
+          return prevPosts
+        }
+        const updatedPost = {...prevPosts[updatedPostIndex]};
+        updatedPost.likes = updatedPost.likes + (updatedPost.isLiked ? -1 : 1);
+        updatedPost.isLiked = !updatedPost.isLiked;
+        const newPosts = [...prevPosts];
+        newPosts[updatedPostIndex] = updatedPost;
+        return newPosts;
+    
+      })
+    apart from above code add  <Post post={post} action = {updatePost}/>
+    ```
+  - now go to post component and modify it as we are passing action from post
+  - run and observe output u will see like status will be immediately changing.
