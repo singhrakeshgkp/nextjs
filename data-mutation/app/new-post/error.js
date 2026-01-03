@@ -1,11 +1,8 @@
 'use client';
 
 
-interface ErrorProps {
-  error: boolean;
-  message: string;
-}
-export default function NewPostError({ message,error }: ErrorProps) {
+
+export default function NewPostError({ message,error }) {
   return (
     <>
       <h2>An error occurred!</h2>

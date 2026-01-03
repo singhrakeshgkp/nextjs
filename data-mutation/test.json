@@ -1,0 +1,489 @@
+{
+    "data": [
+        {
+            "profile_brief": {
+                "id": "SH04105197",
+                "name": {
+                    "display_name": "Priya S",
+                    "fname": "Priya",
+                    "lname": "S"
+                },
+                "age": "30",
+                "gender": "Female",
+                "height": 64,
+                "religion": "Hindu",
+                "caste": "Rajput",
+                "sub_caste": "-",
+                "mother_tongue": "Hindi",
+                "marital_status": "Never Married",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "district": "Gorakhpur",
+                "city": "Gorakhpur",
+                "education": "M.S Medicine",
+                "occupation": "Doctor",
+                "industry": "Medical & Healthcare",
+                "income": "INR 2 Lakh to 4 Lakh",
+                "currency": "INR",
+                "location": "Gorakhpur, India"
+            },
+            "photo_details": {
+                "count": 1,
+                "photos": [
+                    {
+                        "status": "Y",
+                        "photo_order": 0,
+                        "profile_photo": true,
+                        "750X1004": "/2025/12/28/7SH04105197-2727346408445706355-Female_cUHGUaSleZoq495p_750X1004.jpg",
+                        "medium": "/2025/12/28/7SH04105197-1766935001423736278-Female.jpg",
+                        "semilarge": "/2025/12/28/7SH04105197-1541806276785428692-Female_dAc12D83xmp8amSj_250X310.jpg",
+                        "small": "/2025/12/28/7SH04105197-2657048835176016339-Female_PcT8xif5548t5eMy_60X60.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    }
+                ],
+                "status": "show_photo"
+            },
+            "account": {
+                "last_login_date": 20251230202252,
+                "memberlogin": "7SH04105197",
+                "status": "Active",
+                "hidden": "N",
+                "posted_by": "Parent / Guardian",
+                "membership": [
+                    "Free Member",
+                    "Bold Listing"
+                ],
+                "membership_tag": "free"
+            },
+            "other": {
+                "se": "c9085b2dd5cf8045c841836c06c9809e",
+                "ignored": "N",
+                "hidden_reason": "",
+                "can_communicate": false
+            },
+            "contact": {
+                "country_code": "+91",
+                "mask_contact_no": "9129XXXXXX",
+                "contact_details_status": "free_member",
+                "contact_details_title_status": "show_all"
+            },
+            "relationship_actions": {
+                "contacts_status": "profile_accepted",
+                "is_super": false,
+                "can_cancel": true,
+                "can_send_reminder": true,
+                "no_action": true,
+                "maybe_action": true,
+                "can_chat": false,
+                "block_connect": false,
+                "just_joined": false,
+                "expiry_status": "expiring",
+                "expiry_days_left": 30
+            },
+            "connect": {
+                "type": "connect",
+                "accepted_date": "",
+                "accepted_viewed_date": "",
+                "viewed": "Y",
+                "temp": "7SH041051977SH15667165",
+                "status": "Accepted",
+                "record_date": 20251229034203,
+                "filtered": "N",
+                "viewed_date": 20251229232619,
+                "deleted_by_to": 0,
+                "deleted_by_from": 0,
+                "status_updated_date": 20251229232619,
+                "from": "7SH15667165",
+                "to": "7SH04105197",
+                "accept_viewed": "Y",
+                "can_cancel": "Y",
+                "can_unblock": "N",
+                "connect_status": "profile_accepted",
+                "record_date_uts": 1766959923,
+                "viewed_date_uts": 1767030979
+            },
+            "chat_details": {
+                "lastonlinestatus": "Online 3 days ago",
+                "lastonlinestatus_time": 1767106539,
+                "lastonlinetext": "3d ago",
+                "status": "Idle",
+                "icon_status": "app_idle"
+            },
+            "verification": {
+                "count": 1,
+                "shield_state": "HOLLOW",
+                "derived_text": "Mobile no. is verified",
+                "verified_proofs": [
+                    "Mobile no. is verified"
+                ]
+            },
+            "profile_fields": {
+                "d_postedBy": "Parent",
+                "d_membership": "",
+                "is_premium": false,
+                "is_bold_listing": true,
+                "is_nri_profile": false,
+                "is_saarc_profile": true
+            },
+            "request": {
+                "connect": {
+                    "hide_message": false,
+                    "temp": "5b053ce47c7198009cb57e0f33cc0d4d",
+                    "type": "connect",
+                    "isNew": false,
+                    "action_date": 20251229232619
+                },
+                "details": {
+                    "count": 0,
+                    "request_type": []
+                }
+            },
+            "blue_tick": {
+                "has_blue_tick": false,
+                "verified_proofs": [
+                    "Mobile no. is verified"
+                ]
+            },
+            "gated_data": {
+                "is_accept_gated": false
+            },
+            "invitation_details": {
+                "received_new": false,
+                "action_date_uts": 1767030979,
+                "action_date_text": "29 Dec 2025"
+            },
+            "inbox_metadata": {
+                "type": "connect"
+            }
+        },
+        {
+            "profile_brief": {
+                "id": "SH61683591",
+                "name": {
+                    "display_name": "Anita K",
+                    "fname": "Anita",
+                    "lname": "K"
+                },
+                "age": "27",
+                "gender": "Female",
+                "height": 64,
+                "religion": "Hindu",
+                "caste": "Rajput",
+                "sub_caste": "-",
+                "mother_tongue": "Hindi",
+                "marital_status": "Never Married",
+                "country": "India",
+                "state": "Uttar Pradesh",
+                "district": "Lucknow",
+                "city": "Lucknow",
+                "education": "B.E / B.Tech",
+                "occupation": "Software Professional (Others)",
+                "industry": "IT & Software Engineering",
+                "income": "INR 15 Lakh to 20 Lakh",
+                "currency": "INR",
+                "location": "Lucknow, India"
+            },
+            "photo_details": {
+                "count": 3,
+                "photos": [
+                    {
+                        "status": "Y",
+                        "photo_order": 0,
+                        "profile_photo": true,
+                        "750X1004": "/2025/12/08/KSH61683591-6759822499524013869-Female_0a7Gd7D48OTUku28_750X1004.jpg",
+                        "medium": "/2025/12/08/KSH61683591-1765168939070850247-Female.jpg",
+                        "semilarge": "/2025/12/08/KSH61683591-4233960801043546482-Female_ismOK6g62WDM9lUo_250X310.jpg",
+                        "small": "/2025/12/08/KSH61683591-1276598061016376753-Female_f1hJNgJIeq5FsMGQ_60X60.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 1,
+                        "profile_photo": false,
+                        "750X1004": "/2025/12/08/KSH61683591-9360665555739602287-Female_bugMMYhh6AFtHONC_750X1004_faceblur.jpg",
+                        "medium": "/2025/12/08/KSH61683591-1682873947629601317-Female_XlrESkpfhxoh0eIq_150X200_blur.jpg",
+                        "semilarge": "/2025/12/08/KSH61683591-4045077874962185503-Female_LQhOn10AQGyfQz5Z_250X310_blur.jpg",
+                        "small": "/2025/12/08/KSH61683591-9981169611362793706-Female_IXWuEnVIHyAG9x7Z_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 2,
+                        "profile_photo": false,
+                        "750X1004": "/2025/12/08/KSH61683591-6786358127741764605-Female_Y35D5KP9W5Bhlh9b_750X1004_faceblur.jpg",
+                        "medium": "/2025/12/08/KSH61683591-6059677484352098954-Female_HKdtd6YBI4dLFMN2_150X200_blur.jpg",
+                        "semilarge": "/2025/12/08/KSH61683591-5960192988652842766-Female_9MqmpaZqhI5jGcmm_250X310_blur.jpg",
+                        "small": "/2025/12/08/KSH61683591-2874156144015445653-Female_WjBXB8N9sQklqCh2_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    }
+                ],
+                "status": "show_photo"
+            },
+            "account": {
+                "last_login_date": 20251212113605,
+                "memberlogin": "KSH61683591",
+                "status": "Active",
+                "hidden": "Y",
+                "posted_by": "Parent / Guardian",
+                "membership": [],
+                "membership_tag": "free"
+            },
+            "other": {
+                "se": "120fe4322577f9b958a4152883fae834",
+                "ignored": "N",
+                "hidden_reason": "profile_hidden_by_system",
+                "can_communicate": false
+            },
+            "contact": {
+                "country_code": "+91",
+                "mask_contact_no": "8720XXXXXX",
+                "contact_details_status": "free_member",
+                "contact_details_title_status": "show_all"
+            },
+            "relationship_actions": {
+                "contacts_status": "profile_accepted",
+                "is_super": false,
+                "can_cancel": true,
+                "can_send_reminder": true,
+                "no_action": true,
+                "maybe_action": true,
+                "can_chat": false,
+                "block_connect": false,
+                "just_joined": false,
+                "expiry_status": "expiring",
+                "expiry_days_left": 30
+            },
+            "connect": {
+                "type": "connect",
+                "accepted_date": "",
+                "accepted_viewed_date": "",
+                "viewed": "Y",
+                "temp": "7SH15667165KSH61683591",
+                "status": "Accepted",
+                "record_date": 20251208113117,
+                "filtered": "N",
+                "viewed_date": 20251208115407,
+                "deleted_by_to": 0,
+                "deleted_by_from": 0,
+                "status_updated_date": 20251208115407,
+                "from": "7SH15667165",
+                "to": "KSH61683591",
+                "accept_viewed": "Y",
+                "can_cancel": "Y",
+                "can_unblock": "N",
+                "connect_status": "profile_accepted",
+                "record_date_uts": 1765173677,
+                "viewed_date_uts": 1765175047
+            },
+            "chat_details": {
+                "lastonlinestatus": "Online 3 weeks ago",
+                "lastonlinestatus_time": 1765519565,
+                "lastonlinetext": "2w ago",
+                "status": "Offline",
+                "icon_status": "web_offline"
+            },
+            "verification": {
+                "count": 2,
+                "shield_state": "GREEN",
+                "derived_text": "Name verified with Pan card. Mobile no. is verified",
+                "verified_proofs": [
+                    "Name verified with Pan card",
+                    "Mobile no. is verified"
+                ]
+            },
+            "profile_fields": {
+                "d_postedBy": "Parent",
+                "d_membership": "",
+                "is_premium": false,
+                "is_bold_listing": false,
+                "is_nri_profile": false,
+                "is_saarc_profile": true
+            },
+            "request": {
+                "connect": {
+                    "hide_message": false,
+                    "temp": "6a5dc4b768709ff2fbeba74e4e413349",
+                    "type": "connect",
+                    "isNew": false,
+                    "action_date": 20251208115407
+                },
+                "details": {
+                    "count": 0,
+                    "request_type": []
+                }
+            },
+            "blue_tick": {
+                "has_blue_tick": true,
+                "verified_proofs": [
+                    "Name verified against Govt. ID",
+                    "Mobile no. is verified"
+                ]
+            },
+            "gated_data": {
+                "is_accept_gated": false
+            },
+            "invitation_details": {
+                "received_new": false,
+                "action_date_uts": 1765175047,
+                "action_date_text": "08 Dec 2025"
+            },
+            "inbox_metadata": {
+                "type": "connect"
+            }
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "limit": 500,
+        "limitPerPage": 10,
+        "nextElementCount": 0,
+        "totalCount": 2,
+        "key": "inbox_service:8195a1353afb79e7e9085a37a5c06ac5"
+    },
+    "gated": {
+        "blurred_profiles": [
+            {
+                "count": 1,
+                "photos": [
+                    {
+                        "status": "Y",
+                        "photo_order": 0,
+                        "profile_photo": true,
+                        "750X1004": "/2025/10/20/ISH90122165-1980059013618062862-Female_xKAK6ccfyFYaS9Ke_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/20/ISH90122165-0742520615488278626-Female_8Je3BUqUlXzKkKb0_150X200_blur.jpg",
+                        "semilarge": "/2025/10/20/ISH90122165-6778863038822204879-Female_TTvURQJ9NTCGWrYx_250X310_blur.jpg",
+                        "small": "/2025/10/20/ISH90122165-1760060830779066047-Female_mJ2bD9vuAxD4pa67_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    }
+                ],
+                "status": "show_blur_photo",
+                "is_accept_gated": true
+            },
+            {
+                "count": 6,
+                "photos": [
+                    {
+                        "status": "Y",
+                        "photo_order": 0,
+                        "profile_photo": true,
+                        "750X1004": "/2025/10/06/gSH28731341-8133394149005359542-Female_RTWIhceuDAfuREL0_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-6952160342224304318-Female_6skoihmcRlJI0776_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-0238481968032986128-Female_LdCeODEklt21J7Hu_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-5192527037372350174-Female_L0piWH6AzgXoE7xr_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 1,
+                        "profile_photo": false,
+                        "750X1004": "/2025/10/06/gSH28731341-6587791470852990126-Female_zsWH62DfWz2NLOpY_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-1725539688085006511-Female_Sir5AFlbtmLNefjS_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-5928166014674650140-Female_rd1Pg5puchJ8yaZq_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-7688555366934071851-Female_LBUT0AEAnnTHLzyf_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 2,
+                        "profile_photo": false,
+                        "750X1004": "/2025/10/06/gSH28731341-9400446995278176429-Female_5W2NAEya6V2z332C_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-7114753569267431669-Female_Jz9t7HS9sNc2t48Y_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-5687823684454857478-Female_FSobrnEAILGusMTS_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-7141013182694637801-Female_LnJPDMQL6IkuCLOU_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 3,
+                        "profile_photo": false,
+                        "750X1004": "/2025/10/06/gSH28731341-1248291985921176446-Female_msG0Oh1Fna2jcpuw_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-3856580010355388471-Female_j6mRodvWSaDaULNL_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-0249361979303140240-Female_wv19geDuK13dF780_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-2851169886229054963-Female_sz79rKD4ROrLNFjy_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 4,
+                        "profile_photo": false,
+                        "750X1004": "/2025/10/06/gSH28731341-2226574942289584152-Female_Oz64jiS18mpfc4MF_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-6656507676832643148-Female_Q1hqbaqMedboNiRH_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-7863203461794655387-Female_UBMJVJoTXKAb62Ns_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-3082013886939347008-Female_LAxOk1mVuwTUv5my_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 5,
+                        "profile_photo": false,
+                        "750X1004": "/2025/10/06/gSH28731341-6866329138768319214-Female_qwTKuXqUw8uADOly_750X1004_faceblur.jpg",
+                        "medium": "/2025/10/06/gSH28731341-1899842724360137468-Female_tgQyHhdvGb0tTCn3_150X200_blur.jpg",
+                        "semilarge": "/2025/10/06/gSH28731341-6592402338177330543-Female_X2zsZnxJ3FcS1dsO_250X310_blur.jpg",
+                        "small": "/2025/10/06/gSH28731341-4223944027326074979-Female_prwDFqZ7kuc8Jeg1_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    }
+                ],
+                "status": "show_blur_photo",
+                "is_accept_gated": true
+            },
+            {
+                "count": 5,
+                "photos": [
+                    {
+                        "status": "Y",
+                        "photo_order": 0,
+                        "profile_photo": true,
+                        "750X1004": "/2025/09/28/YSH37794961-4024843823363581145-Female_8ajtPAMJivsq74Fp_750X1004_faceblur.jpg",
+                        "medium": "/2025/09/28/YSH37794961-2328278362961382013-Female_m6dC8RRvYqTgV0bs_150X200_blur.jpg",
+                        "semilarge": "/2025/09/28/YSH37794961-5395336221497935214-Female_5uWkVbBMIMXe4trC_250X310_blur.jpg",
+                        "small": "/2025/09/28/YSH37794961-8139108662898944713-Female_ZCcA7WDg8vVeoOJ7_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 1,
+                        "profile_photo": false,
+                        "750X1004": "/2025/09/28/YSH37794961-7676539137351618542-Female_0lkXqMotlteEZJu4_750X1004_faceblur.jpg",
+                        "medium": "/2025/09/28/YSH37794961-0440616000644886439-Female_veYqwMKfx3r39Qvw_150X200_blur.jpg",
+                        "semilarge": "/2025/09/28/YSH37794961-1387811940463967985-Female_Gkez4vsIWJicZ7GT_250X310_blur.jpg",
+                        "small": "/2025/09/28/YSH37794961-3102873947316895456-Female_0inQpq6KLR7C5Iau_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 2,
+                        "profile_photo": false,
+                        "750X1004": "/2025/09/28/YSH37794961-4671135343007063470-Female_Pixm1IS5J50HwsOV_750X1004_faceblur.jpg",
+                        "medium": "/2025/09/28/YSH37794961-5304281679213534535-Female_0SyekTg6tedjdfjK_150X200_blur.jpg",
+                        "semilarge": "/2025/09/28/YSH37794961-5806570892089292249-Female_ekKLzlXnZmzAwmIF_250X310_blur.jpg",
+                        "small": "/2025/09/28/YSH37794961-9148364272524888902-Female_j7831n48k0HXEJcA_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 3,
+                        "profile_photo": false,
+                        "750X1004": "/2025/09/28/YSH37794961-3189534877955541723-Female_xVzPmTqCWFwsIFUk_750X1004_faceblur.jpg",
+                        "medium": "/2025/09/28/YSH37794961-5642047710258222032-Female_tDRwy0eo0bHwNlNX_150X200_blur.jpg",
+                        "semilarge": "/2025/09/28/YSH37794961-2051945903774936531-Female_FLYAy4KMXCmPwND6_250X310_blur.jpg",
+                        "small": "/2025/09/28/YSH37794961-0191243826428357832-Female_zHZPDfnkCyM2f4lf_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    },
+                    {
+                        "status": "Y",
+                        "photo_order": 4,
+                        "profile_photo": false,
+                        "750X1004": "/2025/09/28/YSH37794961-6664944341904850276-Female_1as4D8SN4PHffkdX_750X1004_faceblur.jpg",
+                        "medium": "/2025/09/28/YSH37794961-7120151022832271153-Female_zuuY6TorI3Ds6Gc9_150X200_blur.jpg",
+                        "semilarge": "/2025/09/28/YSH37794961-5000325079664624714-Female_INXwGzRhIp8ad3yf_250X310_blur.jpg",
+                        "small": "/2025/09/28/YSH37794961-7305227913667985722-Female_62mMsQvxuCNlPW5D_60X60_blur.jpg",
+                        "domain_name": "https://img3.shaadi.com"
+                    }
+                ],
+                "status": "show_blur_photo",
+                "is_accept_gated": true
+            }
+        ]
+    },
+    "totalListCount": 6
+}

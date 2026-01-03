@@ -1,16 +1,12 @@
+import { togglePostLikeStatus } from "@/actions/server-actions";
 import { formatDate } from "@/lib/format";
-import { PostType } from "../lib/types";
 import LikeButton from "./like-icon";
 
-interface PostProps {
-  post: PostType;
-}
-
-function Post({ post }: PostProps) {
+function Post({ post }) {
   return (
     <article className="post">
       <div className="post-image">
-        {/* <img src={post.image} alt={post.title} /> */}
+         <img src={post.image} alt={post.title} /> 
       </div>
 
       <div className="post-content">
@@ -26,7 +22,11 @@ function Post({ post }: PostProps) {
           </div>
 
           <div>
-            <LikeButton />
+            {/* <LikeButton action={togglePostLikeStatus}/> */}. {/* Part of approach 1 */}
+            <p> like status is :- {post.isLiked}</p>
+            <form action={togglePostLikeStatus.bind(null,post.id)} className={post.isLiked ? 'liked': ''}>
+              <LikeButton/>
+            </form>
           </div>
         </header>
 
@@ -36,11 +36,8 @@ function Post({ post }: PostProps) {
   );
 }
 
-interface PostsProps {
-  posts: PostType[];
-}
 
-export default function Posts({ posts }: PostsProps) {
+export default function Posts({ posts }) {
   if (!posts || posts.length === 0) {
     return <p>There are no posts yet. Maybe start sharing some?</p>;
   }

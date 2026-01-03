@@ -1,9 +1,7 @@
-import Database from "better-sqlite3";
+import sql from 'better-sqlite3';
 
-import { PostType } from './types';
+const db = new sql('posts.db');
 
-const db = new Database('posts.db');
-type CountRow = { count: number };
 function initDb() {
   db.exec(`
     CREATE TABLE IF NOT EXISTS users (
@@ -32,9 +30,9 @@ function initDb() {
     )`);
 
   // Creating two dummy users if they don't exist already
-  const stmt = db.prepare<CountRow,[]>('SELECT COUNT(*) AS count FROM users');
-  const result = stmt.get();
-  if (result && result.count === 0) {
+  const stmt = db.prepare('SELECT COUNT(*) AS count FROM users');
+
+  if (stmt.get().count === 0) {
     db.exec(`
     INSERT INTO users (first_name, last_name, email)
     VALUES ('John', 'Doe', 'john@example.com')
@@ -49,7 +47,7 @@ function initDb() {
 
 initDb();
 
-export async function getPosts(maxNumber: number) {
+export async function getPosts(maxNumber) {
   let limitClause = '';
 
   if (maxNumber) {
@@ -69,15 +67,15 @@ export async function getPosts(maxNumber: number) {
   return maxNumber ? stmt.all(maxNumber) : stmt.all();
 }
 
-export async function storePost(post:PostType) {
+export async function storePost(post) {
   const stmt = db.prepare(`
     INSERT INTO posts (image_url, title, content, user_id)
     VALUES (?, ?, ?, ?)`);
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return stmt.run(post.imageUrl, post.title, post.content, post.userId);
 }
 
-export async function updatePostLikeStatus(postId:number, userId:number) {
+export async function updatePostLikeStatus(postId, userId) {
   const stmt = db.prepare(`
     SELECT COUNT(*) AS count
     FROM likes
