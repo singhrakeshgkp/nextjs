@@ -12,6 +12,18 @@
   - run project and verify if validation is working
 
 ## Storing user in db
+### Branch Name 05-authentication-2
 - create new file  ```/lib/user.js``` this will be used to intract with db and store value in that, apart from this ```/lib/hash.js``` file created to hash plain password.
 - Since sql lite could throw unique constraint so when calling createUser function we will surround it with try and catch block
+## Login
+### Branch Name 05-authentication-2
 
+- to maintain user session and login we are going to use lucia package. run ```npm i @lucia-auth/adapter-sqlite``` . Here lucia will create and store session in db.
+- **creating new lucia instance**
+  - create a file ```/lib/auth.js```
+  - add code required for creating lucia instance.
+- **Configure session and session cookies**
+  - create new function ```createAuthSession in /lib/auth.js``` file
+  - call ```createAuthSession``` post signup (from try block of /actions/auth-action.js file).
+  - delete training.db file, run application, signup, inspect page (training page) and look for request header ```auth_session``` cookies should be present
+- 
