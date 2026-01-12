@@ -26,4 +26,8 @@
   - create new function ```createAuthSession in /lib/auth.js``` file
   - call ```createAuthSession``` post signup (from try block of /actions/auth-action.js file).
   - delete training.db file, run application, signup, inspect page (training page) and look for request header ```auth_session``` cookies should be present
-- 
+- **Verify an active session**
+  - create ```verifySession``` function in /lib/auth.js file. this will be used to verify session.
+- **Protecting routes against unauthenticated access**
+  - call ```verifySession``` function from ```/training/page.js``` file and vrify if exist, if not redirect user  to home page
+  - run application, delete cookes(if already logged in )and reload, u will observe everytime u try to access ```/training``` route, you will be redirected to ome route ```/```
