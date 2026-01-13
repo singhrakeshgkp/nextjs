@@ -37,3 +37,15 @@
 - switch from signup to login mode when user click on respetive link on home page.
   - make ```/app.js``` file parameterized, that is when anyone click on the link we will pass mode'login/signup' as per this mode we should be able to render create account or login link on home page.
   - Now make changes in ```auth-form.js``` file to render text or link as per selected mode
+
+## Adding user Login flow
+### Branch Name 05-authentication-3
+- create a function ```getUserByEmail``` in ```/lib/user.js``` file
+- go to ```/actions/auth-action.js``` and add login action
+- test after next step which is trigger different server action
+
+## Trigger different server action via login mode param
+### Branch Name 05-authentication-4
+- create ```auth``` function in ```/actions/auth-action.js``` file, this will work as helper function here to direct action respective to passed mode.
+- Now modify ```auth-form.js``` file instead of signup action now use auth action ```const [formState, formAction, isPending] = useActionState(auth.bind(null,mode),{});```
+- run application, login with existing credentail also test signup flow.
