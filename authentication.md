@@ -31,3 +31,9 @@
 - **Protecting routes against unauthenticated access**
   - call ```verifySession``` function from ```/training/page.js``` file and vrify if exist, if not redirect user  to home page
   - run application, delete cookes(if already logged in )and reload, u will observe everytime u try to access ```/training``` route, you will be redirected to ome route ```/```
+
+## switching auth mode with query param
+### Branch Name 05-authentication-3
+- switch from signup to login mode when user click on respetive link on home page.
+  - make ```/app.js``` file parameterized, that is when anyone click on the link we will pass mode'login/signup' as per this mode we should be able to render create account or login link on home page.
+  - Now make changes in ```auth-form.js``` file to render text or link as per selected mode
