@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useActionState } from "react";
 
 
-export default function AuthForm() {
+export default function AuthForm({mode}) { // login or signup
 
  const [formState, formAction, isPending] = useActionState(signup,{});  //// here first argument is action and second argument we passed is initial state
   return (
@@ -25,11 +25,12 @@ export default function AuthForm() {
       </ul>)}
       <p>
         <button type="submit">
-          Create Account
+          {mode ==='login'? 'Login' : 'Create Account'}
         </button>
       </p>
       <p>
-        <Link href="/">Login with existing account.</Link>
+        {mode === 'login' &&  <Link href="/?mode=signup">Create an account</Link>}
+        {mode === 'signup' &&  <Link href="/?mode=login">Login with existing account.</Link>}
       </p>
     </form>
   );
