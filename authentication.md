@@ -49,3 +49,13 @@
 - create ```auth``` function in ```/actions/auth-action.js``` file, this will work as helper function here to direct action respective to passed mode.
 - Now modify ```auth-form.js``` file instead of signup action now use auth action ```const [formState, formAction, isPending] = useActionState(auth.bind(null,mode),{});```
 - run application, login with existing credentail also test signup flow.
+
+## Add logout functionality
+- we can do it easily with some layout page (avoid to use root layout as it will automatically get apply to all user even already logged out user)
+- So we will create route routes with ```(auth)``` syntax. This will not affect url it will only group pages where we need authentication.
+- Now move training folder in /(auth).
+- setup a layout.js file
+- add destroySession method in /lib/auth.js file
+- add logout action in /action/auth-action.js file
+- call logout action on button click of lahout.js file
+- verify output now.
