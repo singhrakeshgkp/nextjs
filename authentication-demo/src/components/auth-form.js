@@ -1,12 +1,12 @@
 'use client'
-import { signup } from '@/actions/auth-action';
+import { auth } from '@/actions/auth-action';
 import Link from 'next/link';
 import { useActionState } from "react";
 
 
 export default function AuthForm({mode}) { // login or signup
 
- const [formState, formAction, isPending] = useActionState(signup,{});  //// here first argument is action and second argument we passed is initial state
+ const [formState, formAction, isPending] = useActionState(auth.bind(null,mode),{});  //// here first argument is action and second argument we passed is initial state
   return (
     <form id="auth-form" action={formAction}>
       <div>
