@@ -1,5 +1,5 @@
 {
-  "name": "caching-demo",
+  "name": "page-router-ex",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@lucia-auth/adapter-sqlite": "^3.0.2",
-    "better-sqlite3": "^9.4.3",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4"
+    "eslint-config-next": "16.1.1"
   }
 }
