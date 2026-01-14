@@ -21,6 +21,7 @@
   ```
 ## Basic
 ## Branch  main 
+### Routing is two type 1) app router (recommended)   2) page router
 - **Routing** ----> File/Folder based routing--> Create new Folder ```about``` in /app directory, now crete new page ```page.jsx```. Now try to access ```host:<port>/about``` url, u will be able to see about page.
 - **Navingation between page**
    - if i use ```<p><a href = "/about">About US</a></p>``` and click on About us link, u will observe in left corner of browser refresh icon turns into x icon that means its downloading brand new page which is no longer is single page application.
