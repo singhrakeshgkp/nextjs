@@ -28,4 +28,5 @@
 - run and try to access ```/blog/abc/....n```, u will see blog by slug -- catch all routes message
 ### Navigating to dynamic routes
 - Go to /clients/index.js file, and add client list with navigation
+- **Note** --> we have to ways to confgure href of Link in approach 2 we have used java script object {} with two prop pathName and query
 - run and verify if navigation is working
