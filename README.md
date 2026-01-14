@@ -9,6 +9,7 @@
    - [Caching](/caching.md)
    - [Optimization](optimization)
    - [Authentication](/authentication.md)
+   - [page Router](/page-router.md)
 
 
 # Next JS
