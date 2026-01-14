@@ -30,3 +30,7 @@
 - Go to /clients/index.js file, and add client list with navigation
 - **Note** --> we have to ways to confgure href of Link in approach 2 we have used java script object {} with two prop pathName and query
 - run and verify if navigation is working
+
+### Navigate Programmatically
+- lets say i want to navigate on button click event
+- modify ```/clients/[id]/index.js``` file and on button click load project and redirect it on next page.
