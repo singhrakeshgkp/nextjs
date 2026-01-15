@@ -10,6 +10,7 @@
    - [Optimization](optimization)
    - [Authentication](/authentication.md)
    - [page Router](/page-router.md)
+     - [Page Router Project](/page-router-proj.md)
 
 
 # Next JS
